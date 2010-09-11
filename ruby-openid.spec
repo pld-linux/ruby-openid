@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/usr/lib/ruby/1.8/openid.rb
-/usr/lib/ruby/1.8/openid
-/usr/lib/ruby/1.8/hmac
+%{ruby_rubylibdir}/openid.rb
+%{ruby_rubylibdir}/openid
+%{ruby_rubylibdir}/hmac
